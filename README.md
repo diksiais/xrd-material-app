@@ -1,5 +1,4 @@
 # xrd-material-app
-I can definitely help with that. Here is a comprehensive README.md file for your GitHub repository, based on the code files you provided. It's structured to be clear and informative for users and potential contributors.
 
 ### Material Analysis Platform
 
