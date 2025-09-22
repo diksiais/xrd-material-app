@@ -30,7 +30,7 @@ combined_history = []
 def get_ai_suggestion(prompt):
     """Generate suggestion using Gemini API."""
     try:
-        api_key = "AIzaSyDjsXXtV5blSKMR0u7V7OJVPJu7lAjkjCw"
+        api_key = "YOUR_API_KEY_HERE"
         url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={api_key}"
         headers = {'Content-Type': 'application/json'}
         payload = {"contents": [{"parts": [{"text": prompt}]}]}
@@ -744,4 +744,5 @@ def get_combined_history():
     return jsonify(history_to_send)
 
 if __name__ == '__main__':
+
     app.run(debug=True)
