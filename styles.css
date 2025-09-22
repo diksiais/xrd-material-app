@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+
+        .markdown-content h1,
+        .markdown-content h2,
+        .markdown-content h3,
+        .markdown-content h4 {
+            font-weight: bold;
+            margin-top: 1.5rem;
+            margin-bottom: .5rem;
+            line-height: 1.25;
+        }
+
+        .markdown-content h3 {
+            font-size: 1.25rem;
+        }
+
+        .markdown-content p {
+            margin-bottom: 1rem;
+        }
+
+        .markdown-content ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .markdown-content strong,
+        .markdown-content b {
+            font-weight: bold;
+        }
+
+        .history-row {
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        /* New colors for BET analysis */
+        .file\:bg-emerald-50:hover {
+            background-color: #d1fae5;
+        }
+        .file\:text-emerald-700 {
+            color: #047857;
+        }
+        .file\:bg-emerald-50 {
+            background-color: #ecfdf5;
+        }
+        .focus\:border-emerald-500:focus {
+            --tw-border-opacity: 1;
+            border-color: rgb(16, 185, 129);
+        }
+        .focus\:ring-emerald-500:focus {
+            --tw-ring-opacity: 1;
+            --tw-ring-color: rgb(16, 185, 129);
+        }
+        .bg-emerald-600 {
+            background-color: #059669;
+        }
+        .hover\:bg-emerald-700:hover {
+            background-color: #04785e;
+        }
+        .text-emerald-700 {
+            color: #047857;
+        }
+        .border-emerald-200 {
+            border-color: #a7f3d0;
+        }
+        .bg-emerald-50 {
+            background-color: #ecfdf5;
+        }
+        .text-emerald-800 {
+            color: #065f46;
+        }
+        .focus\:ring-emerald-500:focus {
+            box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.5);
+        }
+
+        /* New colors for Combined analysis */
+        .file\:bg-pink-50:hover {
+            background-color: #fce7f3;
+        }
+        .file\:text-pink-700 {
+            color: #be185d;
+        }
+        .file\:bg-pink-50 {
+            background-color: #fdf2f8;
+        }
+        .focus\:border-pink-500:focus {
+            --tw-border-opacity: 1;
+            border-color: rgb(236, 72, 153);
+        }
+        .focus\:ring-pink-500:focus {
+            --tw-ring-opacity: 1;
+            --tw-ring-color: rgb(236, 72, 153);
+        }
+        .bg-pink-600 {
+            background-color: #db2777;
+        }
+        .hover\:bg-pink-700:hover {
+            background-color: #be185d;
+        }
+        .text-pink-700 {
+            color: #be185d;
+        }
+        .border-pink-200 {
+            border-color: #fbcfe8;
+        }
+        .bg-pink-50 {
+            background-color: #fdf2f8;
+        }
+        .text-pink-800 {
+            color: #9d174d;
+        }
+        .focus\:ring-pink-500:focus {
+            box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.5);
+        }
+
+        /* NEW colors for TGA analysis */
+        .file\:bg-orange-50:hover {
+            background-color: #fff7ed;
+        }
+        .file\:text-orange-700 {
+            color: #c2410c;
+        }
+        .file\:bg-orange-50 {
+            background-color: #fffbeb;
+        }
+        .focus\:border-orange-500:focus {
+            --tw-border-opacity: 1;
+            border-color: rgb(249, 115, 22);
+        }
+        .focus\:ring-orange-500:focus {
+            --tw-ring-opacity: 1;
+            --tw-ring-color: rgb(249, 115, 22);
+        }
+        .bg-orange-600 {
+            background-color: #ea580c;
+        }
+        .hover\:bg-orange-700:hover {
+            background-color: #c2410c;
+        }
+        .text-orange-700 {
+            color: #c2410c;
+        }
+        .border-orange-200 {
+            border-color: #fed7aa;
+        }
+        .bg-orange-50 {
+            background-color: #fff7ed;
+        }
+        .text-orange-800 {
+            color: #9a3412;
+        }
+        .focus\:ring-orange-500:focus {
+            box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.5);
+        }
